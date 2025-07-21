@@ -1,0 +1,42 @@
+/* Testimonial.css */
+
+.mainDiv {
+  background: linear-gradient(180deg, #000000, #1a1a1a);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.headingTestimonial {
+  background: linear-gradient(90deg, #ff2d00, #ffb921, #ff2d00);
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .headingTestimonial {
+    font-size: 2.5rem;
+  }
+}
