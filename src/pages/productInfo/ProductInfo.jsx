@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import myContext from '../../context/data/myContext';
 import Layout from '../../components/layout/Layout';
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { doc, getDoc } from 'firebase/firestore';
