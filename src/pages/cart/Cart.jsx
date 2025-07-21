@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import { MdEmail } from "react-icons/md";
 import { IoCashOutline } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa"; // For empty cart icon
-
+import { Link } from 'react-router-dom';
 function Cart() {
     const context = useContext(myContext);
     // Removed 'mode' as it's no longer used
@@ -92,9 +92,11 @@ function Cart() {
                                 <p className="mt-2 text-gray-400">
                                     Add some cows to your cart to get started!
                                 </p>
-                                <a href="/allproducts" className="mt-4 inline-block px-6 py-2 bg-gradient-to-r from-pink-600 to-orange-500 text-white rounded-lg hover:from-pink-700 hover:to-orange-600 transition-all duration-300">
-                                    buy Now
-                                </a>
+                                <Link to="/allproducts"className="mt-4 inline-block px-6 py-2 bg-gradient-to-r from-pink-600 to-orange-500 text-white rounded-lg hover:from-pink-700 hover:to-orange-600 transition-all duration-300"> Check Cattle
+                                </Link>
+                                
+                                   
+                                
                             </div>
                         ) : (
                             cartItems.map((item, index) => {
