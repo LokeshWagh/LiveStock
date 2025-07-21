@@ -80,7 +80,7 @@ export const ProtectedRoute = ({children}) => {
 const ProtectedRouteForAdmin = ({children})=> {
   const admin = JSON.parse(localStorage.getItem('user'))
   
-  if(admin.user.email === process.env.VITE_ADMINEMAIL){
+  if(admin.user.email === 'lokeshwagh512@gmail.com'){
     return children
   }
   else{
