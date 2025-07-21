@@ -53,7 +53,7 @@ function Allproducts() {
             </div>
 
             {/* Product Cards Grid */}
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4 overflow-hidden">
               {product
                 .filter((obj) => obj.title.toLowerCase().includes(searchkey))
                 .filter((obj) => obj.category.toLowerCase().includes(filterType))
@@ -61,9 +61,9 @@ function Allproducts() {
                 .map((item, index) => {
                   const { title, price, description, imageUrl, id } = item;
                   return (
-                    <div key={index} className="p-4 md:w-1/4 w-full">
+                    <div key={index} className="p-4 md:w-1/4 w-full overflow-hidden h-auto">
                       <div
-                        className="relative h-full border-2 border-gray-300 rounded-[10px] overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl"
+                        className="relative  border-2 border-gray-300 rounded-[10px] overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl h-auto"
                         style={{
                           background: 'linear-gradient(180deg, rgb(46 49 55), black)',
                           color: 'white',
@@ -77,7 +77,7 @@ function Allproducts() {
                           className="flex justify-center cursor-pointer relative overflow-hidden"
                         >
                           <img
-                            className="rounded-[10px] w-full h-64 object-cover p-2 transition-transform duration-500 hover:scale-110"
+                            className="rounded-[10px] w-full h-64 object-cover p-2 "
                             src={imageUrl}
                             alt={title}
                           />
