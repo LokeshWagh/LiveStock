@@ -72,16 +72,15 @@ function Allproducts() {
                         }}
                       >
                         {/* Image Section */}
-                        <Link
-                             to={`/productinfo/${id}`}
-                             className="flex justify-center cursor-pointer relative overflow-hidden"
+                        <div
+                          onClick={() => (window.location.href = `/productinfo/${id}`)}
+                          className="flex justify-center cursor-pointer relative overflow-hidden"
                         >
-                        <img
-                          className="rounded-[10px] w-full h-64 object-cover p-2 transition-transform duration-500 hover:scale-110"
-                          src={imageUrl}
-                           alt={title}
+                          <img
+                            className="rounded-[10px] w-full h-64 object-cover p-2 transition-transform duration-500 hover:scale-110"
+                            src={imageUrl}
+                            alt={title}
                           />
-                        </Link>
                           {/* Overlay for Hover Effect */}
                           <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-30 transition-opacity duration-300 flex items-center justify-center">
                             <span className="text-white text-lg font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -130,7 +129,7 @@ function Allproducts() {
                           </span>
                         )}
                       </div>
-                    
+                    </div>
                   );
                 })}
             </div>
