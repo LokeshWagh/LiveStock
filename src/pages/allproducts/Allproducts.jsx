@@ -47,7 +47,7 @@ function Allproducts() {
               <h1 
                 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white animate-pulse overflow-hidden"
               >
-                Our Latest Collection
+                Our Latest cattles
               </h1>
               <div className="h-1 w-20 bg-gradient-to-r from-pink-600 to-orange-500 rounded"></div>
             </div>

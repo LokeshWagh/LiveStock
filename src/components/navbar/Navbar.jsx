@@ -67,7 +67,7 @@ function Navbar() {
                 </div>
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                   <Link to="/allproducts" className="-m-2 block p-2 font-medium text-white">
-                    All Products
+                    All Cattles
                   </Link>
                   <Link to="/blogs" className="-m-2 block p-2 font-medium text-white">
                     Blogs
@@ -82,7 +82,7 @@ function Navbar() {
                   {user ? (
                     <div className="flow-root">
                       <Link to="/Contactus" className="-m-2 block p-2 font-medium text-white">
-                        SellsProduct
+                        SellsCattles
                       </Link>
                     </div>
                   ) : (
