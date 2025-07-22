@@ -2,7 +2,7 @@
 
 [![Live Website](https://img.shields.io/badge/Visit-Live--Website-green)](https://live-stock-git-main-team-ezic0dess-projects.vercel.app/)
 
-**LiveStock Cattle Hub** is a modern and user-friendly web platform designed for **cattle trading**. Farmers and buyers can register, list, and browse cattle for sale, making the traditional cattle market more digital and accessible. It also features a blog section to educate and inform users about cattle-related topics.
+**LiveStock Cattle Hub** is a modern and user-friendly web platform designed for **cattle trading**. Farmers and buyers can register, list, and browse cattle for sale, making the traditional cattle market more digital and accessible also admin have the access of adding the cattles and remove the cattles and see the users login in the website. It also features a blog section to educate and inform users about cattle-related topics.
 
 > 🚀 Built with **React**, **Node.js**, **Express.js**, **Firebase**, **HTML**, and **CSS**.
 
@@ -24,14 +24,14 @@ The main objective of LiveStock Cattle Hub is to:
 - 👨‍🌾 **User Registration & Login**  
   Secure authentication  and authorization for farmers and buyers.
 
-- - 👨‍🌾 **Admin Section**  
+- 👨‍🌾 **Admin Section**  
   Admin have the access of adding and remove the cattles the cattles and See the users login in the website.
 
 - 🐄 **All Cattles Section**  
   View a list of cattle available for sale with full details.
 
 - 🛒 **Add Cattle for Sale**  
-  Registered users can list their cattle for others to buy.
+  Registered users can list their cattle for others to buy by contacting the admin using the sellproduct section.
 
 - 🧾 **Testimonials**  
   Real reviews and feedback from users.
@@ -63,27 +63,46 @@ The main objective of LiveStock Cattle Hub is to:
 
 ## 🖼️ Screenshots
 
-### 🏠 Home Page
-![Home Page](assets/home.png)
-
 ### 🔐 Login & Sign Up
 ![Login](./src/assets/login.png)
-![Sign Up](your-signup-image-link-here)
+![Sign Up](./src/assets/signup.png)
+
+### 🏠 Home Page
+![Home Page](./src/assets/home.png)
+
+### 🏠 Admin Page
+
+### Poduct Details
+![Admin Page](./src/assets/admin.png)
+### Add Cattles
+![Admin Page](./src/assets/cattleadd.png)
+### user Detail
+![Admin Page](./src/assets/seeuser.png)
 
 ### 🐄 All Cattles
-![All Cattles](your-cattles-image-link-here)
+![All Cattles](./src/assets/allCattle.png)
+![All Cattles](./src/assets/allcattle(2).png)
+
+
 
 ### 💬 Testimonials
-![Testimonials](your-testimonials-image-link-here)
+![Testimonials](./src/assets/testimonial.png)
 
 ### 📚 Blog Section
-![Blog Section](your-blog-image-link-here)
+## Blog HomePage
+![Blog Section](./src/assets/blogSection.png)
+## Blog Detail.
+![Blog Section](./src/assets/blogDetail.png)
+
+### Cart Section
+ ## Cart Section
+ ![Cart Section](./src/assets/cartSection.png)
 
 
 ---
 
 ## 💻 How to Run Locally
-
+Desclamer : i make the env file public so that this help you to run project after running please use your key to run the project 
 ```bash
 # Clone the repository
 git clone git@github.com:LokeshWagh/LiveStock.git
