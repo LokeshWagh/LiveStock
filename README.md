@@ -49,7 +49,7 @@ The main objective of LiveStock Cattle Hub is to:
 
 ## 🌐 Live Site
 
-👉 [Visit Live Website](https://live-stock-git-main-team-ezic0dess-projects.vercel.app/)
+👉 https://live-stock-git-main-team-ezic0dess-projects.vercel.app/  .
 
 ---
 
@@ -62,14 +62,16 @@ The main objective of LiveStock Cattle Hub is to:
 ---
 
 ## 🖼️ Screenshots
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 🔐 Login & Sign Up
 ![Login](./src/assets/login.png)
 ![Sign Up](./src/assets/signup.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---
 ### 🏠 Home Page
 ![Home Page](./src/assets/home.png)
 
+---
 ### 🏠 Admin Page
 
 ### Poduct Details
@@ -79,20 +81,25 @@ The main objective of LiveStock Cattle Hub is to:
 ### user Detail
 ![Admin Page](./src/assets/seeuser.png)
 
+---
 ### 🐄 All Cattles
 ![All Cattles](./src/assets/allCattle.png)
 ![All Cattles](./src/assets/allcattle(2).png)
 
-
+---
 
 ### 💬 Testimonials
 ![Testimonials](./src/assets/testimonial.png)
+
+---
 
 ### 📚 Blog Section
 ## Blog HomePage
 ![Blog Section](./src/assets/blogSection.png)
 ## Blog Detail.
 ![Blog Section](./src/assets/blogDetail.png)
+
+---
 
 ### Cart Section
  ## Cart Section
