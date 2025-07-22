@@ -76,7 +76,6 @@ The main objective of LiveStock Cattle Hub is to:
 ### 📚 Blog Section
 ![Blog Section](your-blog-image-link-here)
 
-> Replace the image links with actual GitHub image URLs or public image links.
 
 ---
 
@@ -84,17 +83,13 @@ The main objective of LiveStock Cattle Hub is to:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/livestock-cattle-hub.git
+git clone git@github.com:LokeshWagh/LiveStock.git
 
-# Navigate to the project folder
-cd livestock-cattle-hub
-
-# Install frontend dependencies
-cd client
+# After this Install Dependency
 npm install
-npm start
 
-# Install backend dependencies
-cd ../server
-npm install
+#Start the project
 npm run dev
+
+
+
