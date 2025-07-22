@@ -67,7 +67,7 @@ The main objective of LiveStock Cattle Hub is to:
 ![Home Page](assets/home.png)
 
 ### 🔐 Login & Sign Up
-![Login](assets/login.png)
+![Login](./src/assets/login.png)
 ![Sign Up](your-signup-image-link-here)
 
 ### 🐄 All Cattles
