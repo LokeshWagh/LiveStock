@@ -22,7 +22,10 @@ The main objective of LiveStock Cattle Hub is to:
 ## 🌟 Features
 
 - 👨‍🌾 **User Registration & Login**  
-  Secure authentication for farmers and buyers.
+  Secure authentication  and authorization for farmers and buyers.
+
+- - 👨‍🌾 **Admin Section**  
+  Admin have the access of adding and remove the cattles the cattles and See the users login in the website.
 
 - 🐄 **All Cattles Section**  
   View a list of cattle available for sale with full details.
@@ -61,10 +64,10 @@ The main objective of LiveStock Cattle Hub is to:
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-![Home Page](your-image-link-here)
+![Home Page](assets/home.png)
 
 ### 🔐 Login & Sign Up
-![Login](your-login-image-link-here)
+![Login](assets/login.png)
 ![Sign Up](your-signup-image-link-here)
 
 ### 🐄 All Cattles
